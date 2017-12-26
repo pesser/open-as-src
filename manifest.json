@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Open as source",
+    "description": "Add a context menu option to open links as source. Useful to open arbitrary files as text.",
+    "version": "0.1",
+    "homepage_url": "https://github.com/pesser/open-as-src",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ]
+}
